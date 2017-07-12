@@ -1,0 +1,29 @@
+#woo_invoices_shipping_labels_label_list li {
+    color: #000;
+    background: #d9edf7;
+    border: 1px solid #0073aa;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.woo_invoices_shipping_label_delete {
+    position:relative;
+    width:100%;
+}
+
+.woo_invoices_shipping_label_delete a {
+    color: #a33;
+    position:absolute;
+    right:0;
+    font-size:25px;
+}
+
+.button.tips.woorechnung img {
+    padding-top: 3px;
+}
+
+@media screen and (max-width: 782px) {
+    .woo_invoices_shipping_toggle_row {
+        top: 10px !important;
+    }
+}

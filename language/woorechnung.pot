@@ -1,0 +1,502 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooRechnung\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Thu Jun 23 2016 11:55:39 GMT+0200 (CEST)\n"
+"POT-Revision-Date: Thu Jun 23 2016 12:27:04 GMT+0200 (CEST)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "WooRechnung"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://www.zweischneider.de"
+msgstr ""
+
+#. Author of the plugin
+msgid "ZWEISCHNEIDER GmbH & Co. KG"
+msgstr ""
+
+#: ../woorechnung.php:96
+msgid "Deutschland"
+msgstr ""
+
+#: ../woorechnung.php:97
+msgid "Österreich"
+msgstr ""
+
+#: ../woorechnung.php:98
+msgid "Schweiz"
+msgstr ""
+
+#: ../woorechnung.php:102
+msgid "Standard"
+msgstr ""
+
+#: ../woorechnung.php:103
+msgid "Express"
+msgstr ""
+
+#: ../woorechnung.php:104
+msgid "Express until 10 o´clock"
+msgstr ""
+
+#: ../woorechnung.php:105
+msgid "Returns"
+msgstr ""
+
+#: ../woorechnung.php:110
+msgid "Brief"
+msgstr ""
+
+#: ../woorechnung.php:111
+msgid "Warensendung"
+msgstr ""
+
+#: ../woorechnung.php:112
+msgid "Buchsendung"
+msgstr ""
+
+#: ../woorechnung.php:116 ../includes/class-backend.php:184
+msgid "Carrier"
+msgstr ""
+
+#: ../woorechnung.php:117 ../woorechnung.php:472 ../includes/class-backend.php:185
+msgid "Service"
+msgstr ""
+
+#: ../woorechnung.php:118 ../includes/class-backend.php:186
+msgid "Typ"
+msgstr ""
+
+#: ../woorechnung.php:119 ../woorechnung.php:477 ../includes/class-backend.php:187
+msgid "Breite (in cm)"
+msgstr ""
+
+#: ../woorechnung.php:120 ../woorechnung.php:478 ../includes/class-backend.php:188
+msgid "Länge (in cm)"
+msgstr ""
+
+#: ../woorechnung.php:121 ../woorechnung.php:479 ../includes/class-backend.php:189
+msgid "Höhe (in cm)"
+msgstr ""
+
+#: ../woorechnung.php:122 ../woorechnung.php:480 ../includes/class-backend.php:190
+msgid "Gewicht (in kg)"
+msgstr ""
+
+#: ../woorechnung.php:244
+msgid "Service wurde nicht gefunden"
+msgstr ""
+
+#: ../woorechnung.php:311
+msgid "Wirklich löschen?"
+msgstr ""
+
+#: ../woorechnung.php:312
+msgid "Fehler"
+msgstr ""
+
+#: ../woorechnung.php:327 ../includes/class-backend.php:46
+msgid "Shipcloud"
+msgstr ""
+
+#: ../woorechnung.php:442
+msgid "Adresse"
+msgstr ""
+
+#: ../woorechnung.php:445 ../includes/class-backend.php:143
+msgid "Firma"
+msgstr ""
+
+#: ../woorechnung.php:448 ../includes/class-backend.php:144
+msgid "Vorname"
+msgstr ""
+
+#: ../woorechnung.php:449 ../includes/class-backend.php:145
+msgid "Nachname"
+msgstr ""
+
+#: ../woorechnung.php:452 ../includes/class-backend.php:146
+msgid "Straße"
+msgstr ""
+
+#: ../woorechnung.php:453
+msgid "Hausnummer"
+msgstr ""
+
+#: ../woorechnung.php:456 ../includes/class-backend.php:148
+msgid "Adress Zusatz"
+msgstr ""
+
+#: ../woorechnung.php:459 ../includes/class-backend.php:149
+msgid "PLZ"
+msgstr ""
+
+#: ../woorechnung.php:460 ../includes/class-backend.php:150
+msgid "Ort"
+msgstr ""
+
+#: ../woorechnung.php:463 ../includes/class-backend.php:151
+msgid "Bundesland"
+msgstr ""
+
+#: ../woorechnung.php:464 ../includes/class-backend.php:152
+msgid "Land"
+msgstr ""
+
+#: ../woorechnung.php:468
+msgid "Versandeigenschaften"
+msgstr ""
+
+#: ../woorechnung.php:471
+msgid "Carriers"
+msgstr ""
+
+#: ../woorechnung.php:473
+msgid "Typ (Nur bei Deutsche Post AG)"
+msgstr ""
+
+#: ../woorechnung.php:474
+msgid "Bulk"
+msgstr ""
+
+#: ../woorechnung.php:483
+msgid "Referenz"
+msgstr ""
+
+#: ../woorechnung.php:484
+msgid "Notification E-Mail"
+msgstr ""
+
+#: ../woorechnung.php:489
+msgid "Presets"
+msgstr ""
+
+#: ../woorechnung.php:533 ../woorechnung.php:533
+msgid "verwenden"
+msgstr ""
+
+#: ../woorechnung.php:548
+msgid "Presets anzeigen"
+msgstr ""
+
+#: ../woorechnung.php:549
+msgid "Versandkosten abfragen"
+msgstr ""
+
+#: ../woorechnung.php:550 ../includes/class-backend.php:202
+msgid "Speichern"
+msgstr ""
+
+#: ../woorechnung.php:551
+msgid "Versandmarke erstellen"
+msgstr ""
+
+#: ../woorechnung.php:680
+msgid ""
+"WooRechnungen ist noch nicht aktiviert. Bitte hinterlegen Sie einen validen "
+"Lizenzkey."
+msgstr ""
+
+#: ../woorechnung.php:680
+msgid "Hier konfigurieren"
+msgstr ""
+
+#: ../woorechnung.php:697
+msgid "[Nicht mehr anzeigen]"
+msgstr ""
+
+#: ../woorechnung.php:697
+msgid ""
+"Vielen Dank das Sie WooRechnung nutzen! Inzwischen haben Sie [count] "
+"Rechnungen geschrieben und wir hoffen Sie sind zufrieden mit dem Dienst.<br "
+"/>Sollten Sie Fragen oder Anmerkungen haben, freuen wir uns über eine Mail "
+"an <a href=\"mailto:info@woorechnung.com\">info@woorechnung.com</a>."
+msgstr ""
+
+#: ../woorechnung.php:698
+msgid "Desweiteren freuen wir uns, wenn Sie uns eine Bewertung hinterlassen:"
+msgstr ""
+
+#: ../woorechnung.php:698
+#, php-format
+msgid ""
+"Als kleines Dankeschön geben wir Ihnen einen <b>Gutschein</b> über 50% des "
+"ersten Monats oder 10% des ersten Jahres. Senden Sie einfach eine E-Mail mit "
+"einem Screenshot der Bewertung als Beweis an die oben stehende E-Mail."
+msgstr ""
+
+#: ../woorechnung.php:710
+msgid "Der Test war erfolgreich"
+msgstr ""
+
+#: ../woorechnung.php:714
+msgid ""
+"Es konnte keine Verbindung hergestellt werden oder der Lizenzkey stimmt "
+"nicht mit dem unter woorechnung.com überein! Bitte kontaktiere "
+"support@woorechnung.com."
+msgstr ""
+
+#: ../woorechnung.php:840 ../woorechnung.php:853 ../woorechnung.php:866
+msgid ""
+"Die Rechnung konnte nicht geladen werden. Bitte senden Sie uns den Inhalt "
+"aus der <b>DEBUG Konsole</b> an support@woorechnung.com."
+msgstr ""
+
+#: ../woorechnung.php:885 ../woorechnung.php:886
+msgid "Rechnungen exportieren"
+msgstr ""
+
+#: ../woorechnung.php:940
+msgid "Fehler beim exportieren der Rechnungen!"
+msgstr ""
+
+#: ../includes/class-api.php:315 ../includes/class-api.php:342
+msgid "Unbekannter Fehler"
+msgstr ""
+
+#: ../includes/class-api.php:327 ../includes/class-api.php:354
+msgid "Falsche Einstellungen"
+msgstr ""
+
+#: ../includes/class-backend.php:44
+msgid "Allgemein"
+msgstr ""
+
+#: ../includes/class-backend.php:45
+msgid "Rechnungen"
+msgstr ""
+
+#: ../includes/class-backend.php:47 ../includes/class-backend.php:167
+msgid "Shipcloud Presets"
+msgstr ""
+
+#: ../includes/class-backend.php:96
+msgid "Grundeinstellungen"
+msgstr ""
+
+#: ../includes/class-backend.php:101
+msgid "Lizenzkey"
+msgstr ""
+
+#: ../includes/class-backend.php:101
+msgid ""
+"Lizenzkey für WooRechnung. Den Lizenzkey finden Sie in Ihren Provider-"
+"Einstellungen auf: "
+msgstr ""
+
+#: ../includes/class-backend.php:102
+msgid "API-Test"
+msgstr ""
+
+#: ../includes/class-backend.php:102
+msgid ""
+"Testet ob eine Verbindung mit WooRechnung und dem Lizenzkey hergestellt "
+"werden kann."
+msgstr ""
+
+#: ../includes/class-backend.php:113
+msgid "Rechnungseinstellungen"
+msgstr ""
+
+#: ../includes/class-backend.php:118
+msgid "Deaktivieren?"
+msgstr ""
+
+#: ../includes/class-backend.php:118
+msgid "Rechnungserstellung deaktivieren."
+msgstr ""
+
+#: ../includes/class-backend.php:119
+msgid "Status"
+msgstr ""
+
+#: ../includes/class-backend.php:119
+msgid "Status bei dem die Rechnung erstellt werden soll"
+msgstr ""
+
+#: ../includes/class-backend.php:120
+msgid "Rechnung senden"
+msgstr ""
+
+#: ../includes/class-backend.php:120
+msgid ""
+"Wenn aktiv, wird die Rechnung zu der passenden E-mail des oben stehenden "
+"Status angehangen."
+msgstr ""
+
+#: ../includes/class-backend.php:121
+msgid "Rechnungsdatum"
+msgstr ""
+
+#: ../includes/class-backend.php:121
+msgid "Wählen Sie mit welchem Datum die Rechnung erzeugt werden soll."
+msgstr ""
+
+#: ../includes/class-backend.php:122
+msgid "Versandkosten Artikelnummer"
+msgstr ""
+
+#: ../includes/class-backend.php:122
+msgid "Artikelnummer der Versandkosten"
+msgstr ""
+
+#: ../includes/class-backend.php:123
+msgid "Produktbeschreibung"
+msgstr ""
+
+#: ../includes/class-backend.php:123
+msgid ""
+"Wählen Sie ob und welche Beschreibung pro Position/Produkt gespeichert "
+"werden soll."
+msgstr ""
+
+#: ../includes/class-backend.php:124
+msgid "Prefix für die Bestellnummer"
+msgstr ""
+
+#: ../includes/class-backend.php:125
+msgid "Suffix für die Bestellnummer"
+msgstr ""
+
+#: ../includes/class-backend.php:126
+msgid "Status pro Zahlungsart"
+msgstr ""
+
+#: ../includes/class-backend.php:137
+msgid "Shipcloudeinstellungen"
+msgstr ""
+
+#: ../includes/class-backend.php:142
+msgid "Aktivieren?"
+msgstr ""
+
+#: ../includes/class-backend.php:142
+msgid ""
+"Wenn Sie Shipcloud nutzen möchten, füllen Sie bitte die unten stehenden "
+"Felder mit Ihrer Adresse (Rücksendeadresse)."
+msgstr ""
+
+#: ../includes/class-backend.php:147
+msgid "Haus-Nr."
+msgstr ""
+
+#: ../includes/class-backend.php:167
+msgid "Preset hinzufügen"
+msgstr ""
+
+#: ../includes/class-backend.php:196
+msgid "Änderungen übernehmen"
+msgstr ""
+
+#: ../includes/class-backend.php:270
+msgid "Ihre Einstellungen wurden erfolgreich gespeichert."
+msgstr ""
+
+#: ../includes/class-backend.php:320 ../includes/class-backend.php:320
+msgid "Bearbeiten"
+msgstr ""
+
+#: ../includes/class-backend.php:321 ../includes/class-backend.php:321
+msgid "Löschen"
+msgstr ""
+
+#: ../includes/class-backend.php:323
+msgid "Mehr Details anzeigen"
+msgstr ""
+
+#: ../includes/class-backend.php:343
+msgid "WooRechnung Einstellungen"
+msgstr ""
+
+#: ../includes/class-backend.php:360 ../includes/class-backend.php:381
+msgid "löschen"
+msgstr ""
+
+#: ../includes/class-backend.php:366
+msgid "Das Preset wurde erfolgreich gelöscht."
+msgstr ""
+
+#: ../includes/class-backend.php:370
+msgid "Das Preset konnte nicht gelöscht werden."
+msgstr ""
+
+#: ../includes/class-backend.php:377
+msgid "Wollen Sie das Preset wirklich löschen?"
+msgstr ""
+
+#: ../includes/class-backend.php:379
+msgid "abbrechen"
+msgstr ""
+
+#: ../includes/class-backend.php:416
+msgid "testen…"
+msgstr ""
+
+#: ../includes/class-backend.php:468
+msgid "Fertiggestellt"
+msgstr ""
+
+#: ../includes/class-backend.php:471
+msgid "Zahlung ausstehend"
+msgstr ""
+
+#: ../includes/class-backend.php:474
+msgid "In Bearbeitung"
+msgstr ""
+
+#: ../includes/class-backend.php:520
+msgid "nicht senden"
+msgstr ""
+
+#: ../includes/class-backend.php:523
+msgid "senden"
+msgstr ""
+
+#: ../includes/class-backend.php:547
+msgid "Tag der Rechnungserstellung"
+msgstr ""
+
+#: ../includes/class-backend.php:550
+msgid "Tag der Bestellung"
+msgstr ""
+
+#: ../includes/class-backend.php:574
+msgid "Nur Produkttitel, keine Beschreibung"
+msgstr ""
+
+#: ../includes/class-backend.php:577
+msgid "Produkttitel und Produktbeschreibung"
+msgstr ""
+
+#: ../includes/class-backend.php:580
+msgid "Produkttitel und Variationstitel"
+msgstr ""
+
+#: ../includes/class-backend.php:583
+msgid "Produkttitel und Variationsbeschreibung"
+msgstr ""
+
+#: ../includes/class-webhook.php:65
+msgid "Status auto update"
+msgstr ""
